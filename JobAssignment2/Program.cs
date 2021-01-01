@@ -10,6 +10,7 @@ namespace JobAssignment2
             employee.firstName = "Sample";
             employee.lastName = "Student";
             employee.SayName();
+            employee.Quit();
         }
     }
 }
