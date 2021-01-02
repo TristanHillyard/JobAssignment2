@@ -22,8 +22,6 @@ namespace JobAssignment2
             
             Employee<string> employee = new Employee<string>();
             employee.Things.Add("Joe");
-            employee.Things.Equals("Joe");
-
             employee.Things.Add("Jim");
             
             Employee<int> employee1 = new Employee<int>();
