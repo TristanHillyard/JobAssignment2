@@ -6,6 +6,11 @@ namespace JobAssignment2
 {
     interface IQuittable
     {
-        void Quit();
+        public string firstName { get; set; }
+        public string lastName { get; set; }
+        void Quit()
+        {
+            Console.WriteLine("I {0} {1} quit", firstName, lastName);
+        }
     }
 }
