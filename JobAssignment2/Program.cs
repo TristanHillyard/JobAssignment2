@@ -30,12 +30,12 @@ namespace JobAssignment2
             employee3.Things.Add(1);
             employee3.Things.Add(2);
 
-            foreach(string item in employee2)
+            foreach(string item in employee2.Things)
             {
                 Console.WriteLine(item);
             }
 
-            foreach(int item in employee3)
+            foreach(int item in employee3.Things)
             {
                 Console.WriteLine(item);
             }
